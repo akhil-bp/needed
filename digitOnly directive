@@ -124,3 +124,6 @@ export class DigitOnlyDirective {
 ===================================================================================
 1. add above in services/
 2. declare in app.module.ts
+3. use
+  <input type="text"  [maxlength]="3" digitOnly formControlName="DefaultReturnButton"
+                                    placeholder="Default return button shown for" class="form-control" id="inputEmail3">
